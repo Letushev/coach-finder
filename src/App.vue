@@ -6,7 +6,7 @@ import AppHeader from '@/components/AppHeader.vue'
 <template>
   <div class="app-container">
     <AppHeader />
-    <main>
+    <main class="main-content">
       <RouterView />
     </main>
   </div>
@@ -19,7 +19,7 @@ import AppHeader from '@/components/AppHeader.vue'
   margin: 0 auto;
 }
 
-main {
+.main-content {
   padding: 24px;
 }
 </style>

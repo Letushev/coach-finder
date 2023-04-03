@@ -10,7 +10,7 @@ export const router = createRouter({
     {
       path: '/coaches',
       name: 'coaches',
-      component: () => import('@/pages/CoachesPage.vue')
+      component: () => import('@/pages/coaches/CoachesPage.vue')
     },
     {
       path: '/coaches/:coachId',
